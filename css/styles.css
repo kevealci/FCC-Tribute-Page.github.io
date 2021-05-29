@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-color: #eee;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        max-width: 720px;
+    }
+}
+
+.header__title, .header__caption, .info__title, .info__link{
+	text-align: center;
+}
+
+.header__title{
+	font-size: 3rem;
+}
+
+.header__figure{
+	width: 90%;
+	margin: 0 auto;
+	
+	background-color:white;
+	box-shadow: 3px 2px 5px #00000088;
+}
+
+.header__image{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.header__caption{
+	padding: 10px 10px;
+	
+	font-size: 1.3rem;
+}
+
+.info{
+	width: 90%;
+	padding: 10px 25px;
+	margin: 20px auto;
+	
+	background-color: #ddd;
+}
+
+.info__title{
+	font-size: 1.5rem;
+}
+
+.info__parag{
+	font-size: 1.2rem;
+}
